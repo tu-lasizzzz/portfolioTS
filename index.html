@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulasi Sahu - Frontend Developer Portfolio</title>
+    <meta name="description" content="Frontend Developer & B.Tech CS Student - Creating beautiful web experiences">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Logo/Brand -->
+                <div class="nav-logo">
+                    <h2>TS</h2>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero/Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-greeting">Hi there 👋 I'm</p>
+                        <h1 class="hero-title">Tulasi Sahu</h1>
+                        <p class="hero-subtitle">Frontend Developer • UI/UX Designer 👨‍💻</p>
+                        <p class="hero-description">
+                            I'm a passionate frontend developer who believes that great design and clean code go hand in hand 💻✨ and 3rd year B.Tech Computer Science student 
+                            who creates beautiful, interactive web experiences that users love.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">Hire Me</a>
+                            <a href="#projects" class="btn btn-secondary">View Work</a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image">
+                        <div class="profile-card">
+                            <img src="codeestuffgirl.gif" 
+                                 alt="Tulasi Sahu - Frontend Developer" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/tu-lasizzzz" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tulasi-sahu/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/TulasiS88417033" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me ✨</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="browmclrme.jpg" 
+                             alt="Tulasi Sahu" class="about-img">
+                        <div class="about-decoration">💻</div>
+                    </div>
+                    
+                    <div class="about-text">
+                        <h3>Hi, I'm Tulasi Sahu 👋</h3>
+                        <p>
+                            I'm a passionate frontend developer and a 3rd year B.Tech Computer Science student 
+                            who finds joy in transforming creative ideas into beautiful, interactive web experiences. 
+                            With a keen eye for design and a love for clean, efficient code, I specialize in crafting 
+                            user interfaces that are not only visually stunning but also highly functional.
+                        </p>
+                        <p>
+                            Currently pursuing my Bachelor of Technology in Computer Science (3rd year), I combine 
+                            academic knowledge with practical experience to build modern web applications. My journey 
+                            in web development is driven by curiosity and creativity.
+                        </p>
+                        
+                        <div class="skills-tags">
+                            <span class="skill-tag">Creative Problem Solver</span>
+                            <span class="skill-tag">Detail Oriented</span>
+                            <span class="skill-tag">UI/UX Enthusiast</span>
+                            <span class="skill-tag">CS Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Projects 🚀</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Here are some of my recent works that showcase my skills</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop" 
+                                 alt="E-commerce Website">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Website</h3>
+                            <p class="project-description">
+                                A fully responsive e-commerce platform built with React and modern CSS. 
+                                Features include product catalog, shopping cart, and user authentication.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=300&fit=crop" 
+                                 alt="Task Management App">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                A productivity app that helps users organize tasks with drag-and-drop functionality, 
+                                priority settings, and progress tracking.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop" 
+                                 alt="Weather Dashboard">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://tu-lasizzzz.github.io/WEAtherapp/" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">
+                                A beautiful weather application with real-time data, forecasts, and interactive maps. 
+                                Features location-based weather and customizable themes.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">API Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Work Together 💬</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Ready to bring your ideas to life? Let's chat!</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>I'm always excited to work on new projects and collaborate with amazing people.</p>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>tulasisahu20@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 6371 676 034</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Tulasi Sahu. Made with ❤️ and lots of ☕</p>
+                <div class="footer-social">
+                    <a href="https://github.com/tu-lasizzzz" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tulasi-sahu/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/TulasiS88417033" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
